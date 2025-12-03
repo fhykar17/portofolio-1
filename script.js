@@ -34,13 +34,13 @@ greetBtn.addEventListener("click", function () {
     console.log("Tombol Sapaan diklik");  // Console logger
 
     // Minta nama lewat prompt
-    const nama = prompt("Siapa nama Anda?");
+    const nama = prompt("Siapa nama bapakmu?");
 
     // Jika user mengisi nama → tampilkan ke dalam paragraf
     if (nama) {
         greeting.innerText = "Halo, " + nama + "!";
     } else {
-        greeting.innerText = "Hai sayang.";
+        greeting.innerText = "Hai sayang makasih ya udah balik.";
     }
 });
 
